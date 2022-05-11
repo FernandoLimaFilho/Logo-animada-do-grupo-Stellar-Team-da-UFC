@@ -1,0 +1,101 @@
+@charset "UTF-8";
+body {
+    background-color: yellow;
+    text-align: center;
+}    
+#circle-orbit-container {
+    position: relative;
+    top: 30px;
+    left: 580px;
+    height: 300px;
+    width: 300px;
+}
+#inner-orbit {
+    position: absolute;
+    top: 185px;
+    left: 95px;
+    width: 75px;
+    height: 75px;
+    border: 3px #000000 dashed;
+    border-radius: 100%;
+    -webkit-animation: spin-right 6s linear infinite;
+    animation: spin-right 6s linear infinite;
+}
+.inner-orbit-cirlces {
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #000000;
+}
+#middle-orbit {
+    position: absolute;
+    top: 75px;
+    left: 35px;
+    width: 225px;
+    height: 225px;
+    border: 3px #000000 dashed;
+    border-radius: 100%;
+    -webkit-animation: spin-right 12s linear infinite;
+    animation: spin-right 12s linear infinite;
+}
+.middle-orbit-cirlces {
+    position: absolute;
+    top: 29px;
+    left: 17px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #000000;
+}
+#outer-orbit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 334px;
+    height: 334px;
+    border: 3px #000000 dashed;
+    border-radius: 100%;
+    -webkit-animation: spin-right 16s linear infinite;
+    animation: spin-right 16s linear infinite;
+}
+.outer-orbit-cirlces {
+    position: absolute;
+    top: -17px;
+    left: 125px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #000000;
+}
+@keyframes spin-right {
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+p#ufc {
+    font: bold 35pt 'Times New Roman', Times, serif;
+    margin-bottom: -30px;
+    letter-spacing: 4x;
+    color: rgb(0, 0, 0);
+}
+p#stellar {
+    font: bold 45pt Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: -13px;
+    color: rgb(0, 0, 0);
+}
+p#team {
+    font: bold 45pt Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+}
+p#space {
+    margin-bottom: -10px;
+}
