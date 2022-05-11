@@ -1,4 +1,4 @@
-<h1 align = "center">Logo animada do grupo de astrofísica da UFC</h1>
+<h1 align = "center">Logo animada do Grupo de Astrofísica da UFC</h1>
 
 
 
