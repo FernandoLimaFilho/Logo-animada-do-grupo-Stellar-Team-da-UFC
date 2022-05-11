@@ -1,1 +1,1 @@
-# Logotipo_animado_Stellar_team_UFC
+<h1 align = "center">Logo animada do grupo de astrofísica da UFC</h1>
